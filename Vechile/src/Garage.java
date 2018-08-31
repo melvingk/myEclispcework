@@ -7,11 +7,7 @@ public class Garage
 	
 	ArrayList<Vechiles>billList= new ArrayList<>();
 	
-	public Garage(String name)
-	{
-		this.name = name;
-				
-	}
+
 	
 	Vechiles c1= new Vechiles("car");
 	Vechiles m1= new Vechiles("Motorcycle");

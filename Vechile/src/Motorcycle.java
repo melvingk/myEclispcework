@@ -2,6 +2,12 @@
 public class Motorcycle extends Vechiles
 
 {
+	public Motorcycle (String type, String id, int fuel)
+	{
+		super (type, id, fuel);
+	}
+
+
 	private int gunExhaust;
 
 	public int getGunExhaust() {
